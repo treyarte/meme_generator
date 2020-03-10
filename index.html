@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dank Memer</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="header">
+      <h2>D4NK M3M32</h2>
+    </section>
+    <section class="form-section">
+      <form id="meme-form">
+        <div class="input-container">
+          <label for="image-input">image</label>
+          <input
+            type="text"
+            name="image-input"
+            id="image-input"
+            class="text-input"
+          />
+        </div>
+
+        <div class="input-container">
+          <label for="text-top-input">top text</label>
+          <input
+            type="text"
+            name="text-top-input"
+            id="text-top-input"
+            class="text-input"
+          />
+        </div>
+
+        <div class="input-container">
+          <label for="text-bottom-input">bottom text</label>
+          <input
+            type="text"
+            name="text-bottom-input"
+            id="text-bottom-input"
+            class="text-input"
+          />
+        </div>
+        <button class="generate-btn">generate</button>
+      </form>
+    </section>
+    <section class="meme-section"></section>
+    <script src="app.js"></script>
+  </body>
+</html>
